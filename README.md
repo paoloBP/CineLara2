@@ -16,10 +16,14 @@ faltando o setor alimentício)
 - [José Eduardo Mendes](183153@upf.br).
 
 
+
 ## Tarefas Futuras:
 - [x] Início do Repositório
 - [x] Controle de usuários
 - [x] Ajustes no Menu (criação de classes)
+- [ ] Dar continuidade as telas seguintes
+- [ ] Dar um talento no Login, Home, cadastros
+- [ ] Gerar relatórios
 - [ ] Ajustes no banco de dados (Pensar no carrinho de compras do ingresso)
 - [ ] Listagem de dados (Tela simples)
 - [ ] Ajustes no front
