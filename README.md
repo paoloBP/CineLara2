@@ -18,6 +18,8 @@ faltando o setor alimentício)
 
 ## Tarefas Futuras:
 - [x] Início do Repositório
+- [x] Controle de usuários
+- [x] Ajustes no Menu (criação de classes)
 - [ ] Ajustes no banco de dados (Pensar no carrinho de compras do ingresso)
 - [ ] Listagem de dados (Tela simples)
 - [ ] Ajustes no front
