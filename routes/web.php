@@ -14,13 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('home/atores', [\App\Http\Controllers\AtoresController::class, 'index']);
-Route::get('/home/atores/create', [\App\Http\Controllers\AtoresController::class, 'Create']);
+
+Route::get('atores', [\App\Http\Controllers\AtoresController::class, 'index']);
+Route::get('atores/create', [\App\Http\Controllers\AtoresController::class, 'Create']);
 Route::post('atores/store', [\App\Http\Controllers\AtoresController::class, 'store']);
 
 
-Route::get('home/sessao', [\App\Http\Controllers\SessaoController::class, 'index']);
-Route::get('/home/sessao/create', [\App\Http\Controllers\SessaoController::class, 'Create']);
+Route::get('sessao', [\App\Http\Controllers\SessaoController::class, 'index']);
+Route::get('sessao/create', [\App\Http\Controllers\SessaoController::class, 'Create']);
 Route::post('sessao/store', [\App\Http\Controllers\SessaoController::class, 'store']);
 
 Route::get('/', function () {

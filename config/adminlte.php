@@ -295,12 +295,12 @@ return [
         ['header' => 'ATORES'],
         [
             'text' => 'Listagem',
-            'url'  => '/home/atores',
+            'url'  => 'atores',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
             'text' => 'Adicionar Atores',
-            'url'  => '/home/atores/create',
+            'url'  => 'atores/create',
             'icon' => 'fas fa-fw fa-user',
         ],
         ['header' => 'FILMES'],
@@ -325,15 +325,15 @@ return [
             'url'  => '/home/ticket/create',
             'icon' => 'fas fa-fw fa-user',
         ],
-        ['header' => 'Sessâo'],
+        ['header' => 'Sessão'],
         [
             'text' => 'Controle de salas',
-            'url'  => '/home/sessao',
+            'url'  => 'sessao',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
             'text' => 'Adicionar sala',
-            'url'  => '/home/sessao/create',
+            'url'  => 'sessao/create',
             'icon' => 'fas fa-fw fa-user',
         ],
 

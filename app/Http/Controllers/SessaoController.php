@@ -1,9 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Http\Request\SessaoRequest;
+use Illuminate\Http\Request;
 
 use App\Models\sessao;
-use App\Http\Request\SessaoResquest;
+
 
 class SessaoController extends Controller
 {
@@ -19,7 +21,7 @@ class SessaoController extends Controller
     public function create() {
         return view('sessao.create');
     }
-    public function store(SessaoResquest $request){
+    public function store(Request $request){
         $nova_sessao = $request->all();
         sessao::create($nova_sessao);
 

@@ -3,7 +3,7 @@
 @section('content')
     <h3>Novo Ator</h3>
 
-    {!! Form::open(['url'=>'/home/atores/store'])!!}
+    {!! Form::open(['url'=>'/atores/store'])!!}
 
     <div class="form-group">
         {!! Form::label('nome', 'Nome:') !!}
