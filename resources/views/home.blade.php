@@ -16,7 +16,7 @@
 
                     {{ __('Bem vindo') }}
                         <br>
-                        <a href="{{ url('/home/atores') }}" class="btn btn-xs btn-info pull-right">Acessar Menu</a>
+                        <a href="{{ url('/atores') }}" class="btn btn-xs btn-info pull-right">Acessar Menu</a>
                 </div>
             </div>
         </div>
