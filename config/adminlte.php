@@ -303,6 +303,20 @@ return [
             'url'  => 'atores/create',
             'icon' => 'fas fa-fw fa-user',
         ],
+
+        ['header' => 'Categoria'],
+        [
+            'text' => 'Categoria',
+            'url'  => 'categorias',
+            'icon' => 'fas fa-fw fa-list-alt',
+        ],
+
+
+        [
+            'text' => 'Criar Categoria',
+            'url'  => 'categorias/create',
+            'icon' => 'fas fa-fw fa-plus',
+        ],
         ['header' => 'FILMES'],
         [
             'text' => 'Filmes',

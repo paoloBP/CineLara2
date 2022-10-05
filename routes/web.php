@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CategoriasController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +23,10 @@ Route::post('atores/store', [\App\Http\Controllers\AtoresController::class, 'sto
 Route::get('sessao', [\App\Http\Controllers\SessaoController::class, 'index']);
 Route::get('sessao/create', [\App\Http\Controllers\SessaoController::class, 'Create']);
 Route::post('sessao/store', [\App\Http\Controllers\SessaoController::class, 'store']);
+
+Route::get('categorias', [\App\Http\Controllers\CategoriasController::class, 'index']);
+Route::get('categorias/create', [\App\Http\Controllers\CategoriasController::class,'Create']);
+Route::post('categorias/store', [\App\Http\Controllers\CategoriasController::class, 'store']);
 
 Route::get('/', function () {
     return view('welcome');
