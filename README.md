@@ -20,7 +20,13 @@ faltando o setor alimentício)
 ## Tarefas Futuras:
 - [x] Início do Repositório
 - [x] Controle de usuários
-- [x] Ajustes no Menu (criação de classes)
+- [x] Ajustes no Menu
+- [x] Categoria
+- [x] Filmes
+- [x] Atores
+- [x] Sessões
+- [ ] Ticket
+- [ ] Tela de apresentaçao dos filmes em catálogo
 - [ ] Dar continuidade as telas seguintes
 - [ ] Dar um talento no Login, Home, cadastros
 - [ ] Gerar relatórios
