@@ -301,7 +301,7 @@ return [
         [
             'text' => 'Adicionar Atores',
             'url'  => 'atores/create',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-plus',
         ],
 
         ['header' => 'Categoria'],
@@ -311,7 +311,6 @@ return [
             'icon' => 'fas fa-fw fa-list-alt',
         ],
 
-
         [
             'text' => 'Criar Categoria',
             'url'  => 'categorias/create',
@@ -320,24 +319,24 @@ return [
         ['header' => 'FILMES'],
         [
             'text' => 'Filmes',
-            'url'  => '/home/filmes',
-            'icon' => 'fas fa-fw fa-user',
+            'url'  => 'filmes',
+            'icon' => 'fas fa-fw fa-film',
         ],
         [
             'text' => 'Adicionar Atores',
-            'url'  => '/home/filmes/create',
-            'icon' => 'fas fa-fw fa-user',
+            'url'  => 'filmes/create',
+            'icon' => 'fas fa-fw fa-plus',
         ],
         ['header' => 'Vendas'],
         [
             'text' => 'Ticket',
             'url'  => '/home/ticket',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-wallet',
         ],
         [
             'text' => 'Adicionar Ticket',
             'url'  => '/home/ticket/create',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-plus',
         ],
         ['header' => 'Sessão'],
         [
@@ -348,7 +347,7 @@ return [
         [
             'text' => 'Adicionar sala',
             'url'  => 'sessao/create',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-plus',
         ],
 
 

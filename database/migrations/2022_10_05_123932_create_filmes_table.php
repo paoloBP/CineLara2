@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSessaosTable extends Migration
+class CreateFilmesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class CreateSessaosTable extends Migration
      */
     public function up()
     {
-        Schema::create('sessaos', function (Blueprint $table) {
+        Schema::create('filmes', function (Blueprint $table) {
             $table->id();
-            $table->integer('capacidade');
-            $table->string('numero', 5);
+            $table->string('titulo');
             $table->integer('indicacao');
-            $table->integer('horario');
+            $table->string('idioma');
+            $table->string('dublado');
+            $table->integer('duracao');
             $table->timestamps();
         });
     }
@@ -30,6 +31,6 @@ class CreateSessaosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sessaos');
+        Schema::dropIfExists('filmes');
     }
 }
