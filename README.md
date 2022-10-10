@@ -25,6 +25,9 @@ faltando o setor alimentício)
 - [x] Filmes
 - [x] Atores
 - [x] Sessões
+- [x] Adicionar padrão front
+- [x] Montar TODA a estrutura de MENU
+- [x] fazer 2 telas de inserção (básica) de dados. (todas as telas feitas)
 - [ ] Ticket
 - [ ] Tela de apresentaçao dos filmes em catálogo
 - [ ] Dar continuidade as telas seguintes
