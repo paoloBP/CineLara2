@@ -12,10 +12,18 @@
             @foreach($atores as $ator)
                <tr>
                    <td>{{$ator->nome}}</td>
-                   <td>{{$ator->dt_nascimento}}</td>
+                   <td>{{Carbon\Carbon::parse ($ator->dt_nascimento)->format('d/m/Y')}}</td>
+                   <th>Ações</th>
                </tr>
+
+               <td>
+                <a href="{{route('atores.edit', [ 'id'=>$ator->id])}}" class="btn-sm btn-success"> Editar</a>
+
+                <a href="{{route('atores.edit', [ 'id'=>$ator->id])}}" class="btn-sm btn-success"> Remover</a>
+               </td>
 
             @endforeach
         </tbody>
     </table>
+
 @stop

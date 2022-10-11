@@ -24,8 +24,8 @@ class AtorRequest extends FormRequest
     public function rules()
     {
         return [
-            'nome' => 'required|min:5',
-            'mnacionalidade' => 'required',
+            'nome' => 'required',
+            'nacionalidade' => 'required',
             'dt_nascimento' => 'date',
             'inicio_atividades' => 'date',
         ];
