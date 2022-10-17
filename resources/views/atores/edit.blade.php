@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 
 @section('content')
-    <h3>Editando Ator : {{$ator->nome}} </h3>
+    <h3>Editando Ator : </h3>
 
     {!! Form::open(['route'=>'atores/$ator->id/update', 'method'=>'put'])!!}
 

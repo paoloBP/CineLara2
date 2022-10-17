@@ -1,4 +1,4 @@
-@extends ('layouts.default)
+@extends ('layouts.default')
 
 @section ('content')
     <h1>Atores</h1>
@@ -17,7 +17,7 @@
                </tr>
 
                <td>
-                <a href="{{route('atores.edit', [ 'id'=>$ator->id]) }}" class="btn-sm btn-success"> Editar</a>
+                <a href="{{ route('atores.edit', ['id'=>\Crypt::encrypt($ator->id)]) }}" class="btn-sm btn-success">Editar</a>
 
                 <a href="#" onClick= return ConfimaExclusao({{$ator->id}}) class="btn-sm btn-success"> Remover</a>
                </td>
